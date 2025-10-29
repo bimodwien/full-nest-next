@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kopi Arabica 250g",
+      "description": "Kopi arabica pilihan dengan cita rasa fruity dan aftertaste manis.",
+      "price": 95000,
+      "stock": 40
+    },
+    {
+      "id": 2,
+      "name": "Teh Hijau Premium 100g",
+      "description": "Teh hijau premium dengan aroma segar, cocok untuk dinikmati hangat atau dingin.",
+      "price": 45000,
+      "stock": 120
+    },
+    {
+      "id": 3,
+      "name": "Headphone Bluetooth",
+      "description": "Headphone wireless dengan noise isolation dan baterai hingga 20 jam.",
+      "price": 399000,
+      "stock": 25
+    },
+    {
+      "id": 4,
+      "name": "Notebook A5 Dot Grid",
+      "description": "Buku catatan A5 dengan kertas dot grid 100 gsm, cocok untuk bullet journal.",
+      "price": 38000,
+      "stock": 200
+    },
+    {
+      "id": 5,
+      "name": "Mouse Wireless 2.4G",
+      "description": "Mouse nirkabel ergonomis dengan DPI dapat diatur dan receiver nano.",
+      "price": 79000,
+      "stock": 60
+    },
+    {
+      "id": 6,
+      "name": "Keyboard Mechanical 87-Key",
+      "description": "Keyboard TKL switch biru dengan backlight putih, casing kokoh.",
+      "price": 550000,
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "name": "Botol Minum Stainless 750ml",
+      "description": "Botol minum vacuum insulated, menjaga suhu panas/dingin hingga 12 jam.",
+      "price": 120000,
+      "stock": 80
+    },
+    {
+      "id": 8,
+      "name": "Kaos Katun Combed",
+      "description": "T-shirt katun combed 30s, adem dan tidak mudah melar.",
+      "price": 65000,
+      "stock": 100
+    },
+    {
+      "id": 9,
+      "name": "Sepatu Sneakers Kasual",
+      "description": "Sneakers ringan dengan sol empuk, cocok untuk aktivitas harian.",
+      "price": 349000,
+      "stock": 32
+    },
+    {
+      "id": 10,
+      "name": "Power Bank 10000mAh",
+      "description": "Power bank dengan dual output dan dukungan fast charging 18W.",
+      "price": 229000,
+      "stock": 50
+    },
+    {
+      "id": 11,
+      "name": "Lampu LED Smart 12W",
+      "description": "Lampu pintar terhubung Wi‑Fi, dapat diatur warna dan kecerahan via aplikasi.",
+      "price": 99000,
+      "stock": 70
+    },
+    {
+      "id": 12,
+      "name": "Backpack Anti-Air 20L",
+      "description": "Ransel harian anti air dengan kompartemen laptop 15 inci.",
+      "price": 299000,
+      "stock": 22
+    }
+  ]
+}
