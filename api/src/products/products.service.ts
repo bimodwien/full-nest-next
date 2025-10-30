@@ -2,11 +2,25 @@ import { Injectable } from '@nestjs/common';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { Product } from './entities/product.entity';
-const data = require('../../../mock.json');
+// const data = require('../../../mock.json'); // Alternative way to import JSON
+import { join } from 'path';
+import { readFileSync } from 'fs';
 
 @Injectable()
 export class ProductsService {
-  private products: Product[] = (data.products ?? []) as Product[];
+  /*
+  ini kalo pake require, tapi kadang ada masalah tsconfig.json..
+  jadi datanya itu pake data.products karena di mock.json ada di dalam object :
+    private products: Product[] = (data.products ?? []) as Product[];
+*/
+
+  private products: Product[] = (
+    JSON.parse(
+      readFileSync(join(process.cwd(), '..', 'mock.json'), 'utf-8'),
+    ) as {
+      products: Product[];
+    }
+  ).products;
 
   create(createProductDto: CreateProductDto): Product {
     const nextId = this.products.length

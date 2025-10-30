@@ -59,7 +59,7 @@ const ProductTable = () => {
           <col className="w-44" />
         </colgroup>
         <thead>
-          <tr className="bg-gray-100">
+          <tr className="bg-gray-200">
             <th className="border-b p-2 text-left">ID</th>
             <th className="border-b p-2 text-left">Name</th>
             <th className="border-b p-2 text-left">Price</th>
@@ -86,7 +86,7 @@ const ProductTable = () => {
                   </Link>
                   <button
                     onClick={() => handleDelete(product.id)}
-                    className="border border-black px-3 py-1 rounded hover:bg-red-500 hover:text-white transition-colors"
+                    className="border border-black px-3 py-1 rounded hover:bg-red-500 hover:text-white transition-colors cursor-pointer"
                   >
                     Delete
                   </button>
